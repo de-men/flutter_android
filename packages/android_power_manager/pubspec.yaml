@@ -1,6 +1,6 @@
 name: android_power_manager
-description: A new flutter plugin project.
-version: 0.1.0
+description: A Flutter plugin for Android for invoking Power Manager api.
+version: 0.1.1
 author: thai <thaihuynhxyz@gmail.com>
 homepage: https://github.com/de-men/flutter_android/tree/master/packages/android_power_manager
 

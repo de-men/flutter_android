@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="99665ff9-59dd-49b1-bfd1-aa22bbb6560c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/java/org/demen/android_power_manager/AndroidPowerManagerPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/org/demen/android_power_manager/AndroidPowerManagerPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +64,7 @@
       <workItem from="1571308921083" duration="2130000" />
       <workItem from="1571311147868" duration="4458000" />
       <workItem from="1571381375775" duration="24000" />
+      <workItem from="1571381699374" duration="524000" />
     </task>
     <servers />
   </component>
