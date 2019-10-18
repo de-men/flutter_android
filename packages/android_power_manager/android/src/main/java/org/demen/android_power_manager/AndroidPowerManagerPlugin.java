@@ -10,10 +10,6 @@ import android.os.Looper;
 import android.os.PowerManager;
 import android.provider.Settings;
 
-import android.util.Log;
-import androidx.annotation.NonNull;
-import androidx.annotation.VisibleForTesting;
-
 import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;
 import io.flutter.plugin.common.PluginRegistry;
@@ -50,13 +46,13 @@ public class AndroidPowerManagerPlugin implements MethodChannel.MethodCallHandle
         channel.setMethodCallHandler(instance);
     }
 
-    @VisibleForTesting
     private AndroidPowerManagerPlugin(Activity activity) {
         this.activity = activity;
     }
 
+    @SuppressWarnings("NullableProblems")
     @Override
-    public void onMethodCall(@NonNull MethodCall call, @NonNull MethodChannel.Result result) {
+    public void onMethodCall(MethodCall call, MethodChannel.Result result) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             switch (call.method) {
                 case METHOD_IS_IGNORING_BATTERY_OPTIMIZATIONS:

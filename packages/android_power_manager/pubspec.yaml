@@ -1,7 +1,7 @@
 name: android_power_manager
 description: A new flutter plugin project.
-version: 0.0.1
-author: thai <thai@demen.org>
+version: 0.1.0
+author: thai <thaihuynhxyz@gmail.com>
 homepage: https://github.com/de-men/flutter_android/tree/master/packages/android_power_manager
 
 environment:
