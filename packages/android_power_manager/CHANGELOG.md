@@ -1,3 +1,7 @@
+## 0.1.1
+
+* Fix bug build failed on iOS
+
 ## 0.1.0
 
 * Fix bug cannot import androix package.
