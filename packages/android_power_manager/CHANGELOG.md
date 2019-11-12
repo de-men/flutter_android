@@ -1,3 +1,7 @@
+## 0.1.4
+
+* Fix iOS prefix
+
 ## 0.1.2
 
 * Fix bug build failed on iOS
