@@ -1,4 +1,8 @@
-## 0.1.4
+## 0.1.6
+
+* Change iOS platform using Objective-C
+
+## 0.1.5
 
 * Fix iOS prefix
 

@@ -1,4 +1,4 @@
-package org.demen.android_power_manager_example;
+package org.demen.androidpowermanagerexample;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;

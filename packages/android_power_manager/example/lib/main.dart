@@ -37,7 +37,7 @@ class _MyAppState extends State<MyApp> {
     // Platform messages may fail, so we use a try/catch PlatformException.
     try {
       isIgnoringBatteryOptimizations =
-          '${await AndroidPowerManager.isIgnoringBatteryOptimizations}';
+      '${await AndroidPowerManager.isIgnoringBatteryOptimizations}';
     } on PlatformException {
       isIgnoringBatteryOptimizations = 'Failed to get platform version.';
     }
@@ -57,10 +57,10 @@ class _MyAppState extends State<MyApp> {
         floatingActionButton: FloatingActionButton(
           onPressed: () async {
             bool success =
-                await AndroidPowerManager.requestIgnoreBatteryOptimizations();
+            await AndroidPowerManager.requestIgnoreBatteryOptimizations();
             if (success) {
               String isIgnoringBatteryOptimizations =
-                  await _checkBatteryOptimizations();
+              await _checkBatteryOptimizations();
               setState(() {
                 _isIgnoringBatteryOptimizations =
                     isIgnoringBatteryOptimizations;

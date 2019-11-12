@@ -1,8 +1,16 @@
 #import "AndroidPowerManagerPlugin.h"
-#import <android_power_manager/android_power_manager-Swift.h>
 
 @implementation AndroidPowerManagerPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
-  [SwiftAndroidPowerManagerPlugin registerWithRegistrar:registrar];
+  FlutterMethodChannel* channel = [FlutterMethodChannel
+      methodChannelWithName:@"androidpowermanager"
+            binaryMessenger:[registrar messenger]];
+  AndroidPowerManagerPlugin* instance = [[AndroidPowerManagerPlugin alloc] init];
+  [registrar addMethodCallDelegate:instance channel:channel];
 }
+
+- (void)handleMethodCall:(FlutterMethodCall*)call result:(FlutterResult)result {
+    result(FlutterMethodNotImplemented);
+}
+
 @end

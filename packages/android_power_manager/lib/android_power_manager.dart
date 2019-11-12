@@ -4,7 +4,7 @@ import 'package:flutter/services.dart';
 
 class AndroidPowerManager {
   static const MethodChannel _channel =
-      const MethodChannel('flutter.demen.org/android_power_manager');
+  const MethodChannel('flutter.demen.org/android_power_manager');
 
   static Future<String> get platformVersion async {
     final String version = await _channel.invokeMethod('getPlatformVersion');

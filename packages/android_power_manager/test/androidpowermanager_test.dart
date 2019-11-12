@@ -3,7 +3,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:android_power_manager/android_power_manager.dart';
 
 void main() {
-  const MethodChannel channel = MethodChannel('android_power_manager');
+  const MethodChannel channel = MethodChannel('androidpowermanager');
 
   TestWidgetsFlutterBinding.ensureInitialized();
 
@@ -18,6 +18,6 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    expect(await AndroidPowerManager.platformVersion, '42');
+    expect(await Androidpowermanager.platformVersion, '42');
   });
 }

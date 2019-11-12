@@ -1,4 +1,4 @@
-group 'org.demen.android_power_manager'
+group 'org.demen.androidpowermanager'
 version '1.0'
 
 buildscript {

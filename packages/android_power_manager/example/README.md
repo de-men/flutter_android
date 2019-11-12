@@ -1,6 +1,6 @@
-# android_power_manager_example
+# androidpowermanager_example
 
-Demonstrates how to use the android_power_manager plugin.
+Demonstrates how to use the androidpowermanager plugin.
 
 ## Getting Started
 

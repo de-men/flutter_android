@@ -1,5 +1,5 @@
-name: android_power_manager_example
-description: Demonstrates how to use the android_power_manager plugin.
+name: androidpowermanagerexample
+description: Demonstrates how to use the androidpowermanager plugin.
 publish_to: 'none'
 
 environment:
