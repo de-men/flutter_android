@@ -1,3 +1,7 @@
+## 1.0.0
+
+* Migrate to Android v2 embedding
+
 ## 0.1.6
 
 * Change iOS platform using Objective-C

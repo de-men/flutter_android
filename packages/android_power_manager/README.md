@@ -20,6 +20,7 @@ If you want to request ignoring battery optimizations please specify your permis
 
 ### Example
 
+Check battery optimizations if it is ignoring
 ```dart
 import 'package:android_power_manager/android_power_manager.dart';
 
@@ -34,4 +35,10 @@ Future<void> initPlatformState() async {
     _isIgnoringBatteryOptimizations = isIgnoringBatteryOptimizations;
   });
 }
+```
+
+Request to ignore battery optimizations
+
+```shell
+final success = await AndroidPowerManager.requestIgnoreBatteryOptimizations();
 ```
